@@ -1,16 +1,11 @@
 ### Hi there 👋
 
-<p>
-<a href="https://github.com/anuraghazra/github-readme-stats" style="vertical-align:top;">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=alexcasalboni&show_icons=true&theme=gruvbox&custom_title=Alex%27s%20GitHub%20Stats&include_all_commits=true&hide_rank=true" />
-</a>
+[![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexcasalboni&show_icons=true&theme=gruvbox&custom_title=Alex%27s%20GitHub%20Stats&include_all_commits=true&hide_rank=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<a href="https://github.com/alexcasalboni/aws-lambda-power-tuning" style="vertical-align:top;">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alexcasalboni&repo=aws-lambda-power-tuning&theme=gruvbox" />
-</a>
-</p>
+Interested in serverless cost/performance optimization? Check out:
 
+[![AWS Lambda Power Tuning](https://github-readme-stats.vercel.app/api/pin/?username=alexcasalboni&repo=aws-lambda-power-tuning&theme=gruvbox)](https://github.com/alexcasalboni/aws-lambda-power-tuning)
 
 <!--
 **alexcasalboni/alexcasalboni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
