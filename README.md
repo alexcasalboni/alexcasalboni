@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-[![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexcasalboni&show_icons=true&theme=gruvbox&custom_title=Alex%27s%20GitHub%20Stats&include_all_commits=true&hide_rank=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexcasalboni&show_icons=true&theme=gruvbox&custom_title=Alex%27s%20GitHub%20Stats&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
 
 
-Interested in serverless cost/performance optimization? Check out:
+Interested in serverless cost/performance optimization? Check this out:
 
 [![AWS Lambda Power Tuning](https://github-readme-stats.vercel.app/api/pin/?username=alexcasalboni&repo=aws-lambda-power-tuning&theme=gruvbox)](https://github.com/alexcasalboni/aws-lambda-power-tuning)
 
