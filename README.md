@@ -1,23 +1,61 @@
-### Hi there 👋
+# Alex Casalboni — Personal Site
 
-[![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexcasalboni&show_icons=true&theme=gruvbox&custom_title=Alex%27s%20GitHub%20Stats&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+Modern multi-page site for Alex Casalboni (Developer Advocate, speaker, and content creator) built with Next.js.
 
+## Features
 
-Interested in serverless cost/performance optimization? Check this out:
+- Landing page that highlights services, quick links, and core stats.
+- Dedicated pages for blog posts, talks with a YouTube playlist embed, and contact information.
+- Responsive, dark-themed layout with reusable cards and pill badges.
+- CI workflow that lints and builds every pull request.
 
-[![AWS Lambda Power Tuning](https://github-readme-stats.vercel.app/api/pin/?username=alexcasalboni&repo=aws-lambda-power-tuning&theme=gruvbox)](https://github.com/alexcasalboni/aws-lambda-power-tuning)
+## Tech stack
 
-<!--
-**alexcasalboni/alexcasalboni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- [Next.js 14](https://nextjs.org/) with the App Router
+- React 18, TypeScript, and ESLint (`next/core-web-vitals`)
 
-Here are some ideas to get you started:
+## Getting started
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Install dependencies (Node.js 20+ recommended):
+
+   ```bash
+   npm install
+   ```
+
+2. Run the local dev server:
+
+   ```bash
+   npm run dev
+   ```
+
+   Visit http://localhost:3000 to view the site. Edits in `app/` hot-reload automatically.
+
+3. Run linting:
+
+   ```bash
+   npm run lint
+   ```
+
+4. Create a production build:
+
+   ```bash
+   npm run build
+   ```
+
+   The optimized bundle is output to the `.next` directory. Start it locally with `npm start`.
+
+## Project structure
+
+- `app/` — App Router pages and layout
+  - `page.tsx` — homepage
+  - `blog/page.tsx` — writing
+  - `talks/page.tsx` — talks and playlist
+  - `contact/page.tsx` — collaboration and contact options
+- `app/data/content.ts` — curated links and content metadata
+- `.github/workflows/ci.yml` — lint/build GitHub Action
+
+## Customization
+
+- Update `app/data/content.ts` with your own blog posts, talks, and preferred links.
+- Swap the logo SVG in `app/layout.tsx` with a headshot or brand mark (SVG recommended for crispness).
+- Adjust global colors and spacing in `app/globals.css`.
