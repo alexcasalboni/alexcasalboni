@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: theme('fontFamily.sans');
+  background: radial-gradient(circle at 20% 20%, rgba(34, 197, 94, 0.12), transparent 25%),
+    radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.12), transparent 25%),
+    #f8fafc;
+  color: #0f172a;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.section-title {
+  @apply text-3xl font-semibold text-primary mb-3;
+}
+
+.section-subtitle {
+  @apply text-base text-slate-600 mb-6 max-w-2xl;
+}
+
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full bg-slate-900 text-white px-3 py-1 text-sm font-medium shadow-soft;
+}
+
+.card-grid {
+  @apply grid gap-6 md:grid-cols-2;
+}
+
+.card {
+  @apply glass-panel p-6 transition-transform duration-300 hover:-translate-y-1;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 text-white px-5 py-3 font-semibold shadow-soft transition-transform hover:-translate-y-0.5 hover:bg-slate-800;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-3 font-semibold text-slate-800 shadow-soft transition-transform hover:-translate-y-0.5;
+}
+
+.nav-link {
+  @apply text-sm font-semibold text-slate-700 transition-colors hover:text-slate-900;
+}
+
+.footer {
+  @apply mt-16 border-t border-slate-200 py-10 text-sm text-slate-600;
+}
+
+ul.highlight-list {
+  @apply grid gap-3 md:grid-cols-2;
+}
+
+ul.highlight-list li {
+  @apply flex items-start gap-3 rounded-xl border border-slate-200 bg-white p-4 shadow-soft;
+}
+
+ul.highlight-list svg {
+  @apply text-accent;
+}
+
+.tag {
+  @apply rounded-full bg-slate-100 px-3 py-1 text-sm font-semibold text-slate-800;
+}
+
+.timeline {
+  @apply relative pl-6 space-y-4;
+}
+
+.timeline::before {
+  content: "";
+  @apply absolute left-1 top-1 bottom-1 w-px bg-slate-200;
+}
+
+.timeline-item {
+  @apply relative;
+}
+
+.timeline-marker {
+  @apply absolute -left-[11px] mt-1 h-3 w-3 rounded-full border-2 border-white bg-accent shadow;
+}
+
+.section-cta {
+  @apply mt-10 flex flex-wrap gap-3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
