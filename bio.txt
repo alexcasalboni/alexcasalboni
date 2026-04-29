@@ -1,0 +1,7 @@
+Alex is a software engineer, cloud architect, and developer advocate with more than 15 years of hands-on experience in building products and supporting technical communities.
+
+He spent six years at AWS, where he combined deep technical expertise with storytelling to help builders understand and adopt modern cloud architectures.
+
+Throughout his career, Alex has worked across open source, startups, and large-scale cloud platforms, contributing as a speaker, developer, blogger, podcaster, and technical educator - turning complex systems into clear mental models that engineers and decision-makers can use in real-world environments.
+
+Today at Unleash, Alex helps teams adopt FeatureOps and enterprise resiliency best practices. He's driven by one simple goal: helping builders ship better software, faster, and with confidence.
